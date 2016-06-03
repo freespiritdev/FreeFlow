@@ -1,3 +1,24 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$blue: #35478C;
+$mediumblue: #4E7AC7;
+$darkblue: #16193B;
+
+li{
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: $mediumblue;
+}
+
+a:hover{
+  color: #000;
+}
+
+.welcome{
+  text-align: center;
+}
